@@ -1,0 +1,21 @@
+{
+	"name": "node-leap",
+	"version": "0.0.1",
+	"main": "out/index.js",
+	"private": true,
+	"gypfile": true,
+	"scripts": {
+		"tsc": "tsc",
+		"start": "node out/index.js"
+	},
+	"devDependencies": {
+		"@types/node": "^16.9.1",
+		"@types/socket.io": "^3.0.2",
+		"typescript": "^4.4.3"
+	},
+	"dependencies": {
+		"bindings": "^1.5.0",
+		"node-addon-api": "^4.2.0",
+		"socket.io": "^4.2.0"
+	}
+}
